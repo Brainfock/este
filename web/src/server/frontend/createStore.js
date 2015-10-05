@@ -4,19 +4,10 @@ import initialState from '../initialState';
 import {configureStore} from '@este/common';
 import {fromJS} from 'immutable';
 import {mapDispatchToProps} from '@este/common';
-//import loopback from 'loopback';
 import app from '../main';
-
 import createRoutes from '../../client/createRoutes.js';
 import createLocation from 'history/lib/createLocation';
 import {RoutingContext, match} from 'react-router';
-
-export default function createStore(req) {
-  return new Promise((resolve, reject) => {
-    
-    resolve(store);
-  });
-}
 
 export default function createStore(req) {
   return new Promise((resolve, reject) => {
